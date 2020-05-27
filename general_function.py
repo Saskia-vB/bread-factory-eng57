@@ -6,9 +6,9 @@ def say_hello_name(name):
     return(f'hello {name}')
 
 # BAD!
-def return_formatted_name(name):
-    print(name.title().strip())
-    return None
+# def return_formatted_name(name):
+#     print(name.title().strip())
+#     return None
 
 # Good:
 
@@ -30,10 +30,11 @@ expected_output = 'Filipe'
 
 # test execution
 print("Testing function return formated name() with '     filipe     ' --> 'Filipe'")
-print(return_formatted_name(known_input) == expected_out)
+print(return_formatted_name(known_input) == (expected_out))
 
 # testing say_hello()
+kn
 
-
+print("Testing function return say_hello() with 'hello   filipe  ' --> 'hello Filipe')
 
 
